@@ -65,16 +65,18 @@ p{
 .contact{
     font-style: normal;
 }
-.contact-list a{
+.contact-list-mail, 
+.contact-list-phone{
     color:#434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
 .navigation-list a:hover,
 .navigation-list a:focus,
-.contact-list a:hover,
-.contact-list a:focus{
+.contact-list-mail:hover,
+.contact-list-mail:focus,
+.contact-list-phone:hover,
+.contact-list-phone:focus{
     color: #404BBF;
 }
 .solutions-button{
@@ -96,10 +98,13 @@ p{
     background-color: #2E2F42;
 }
 .advantages-title{
-    color: white;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .advantages-item-describe{
     columns: #434455;
+    letter-spacing: 0.02em;
 }
 .team-item-title{
     font-weight: 500;
@@ -117,10 +122,17 @@ p{
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.team-title{
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 .team-item{
     background-color: #ffffff;
 }
 .team-item-title{
+    color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
@@ -147,6 +159,7 @@ p{
 }
 .footer-describe{
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 .logo-footer{
     color: #F4F4FD;
