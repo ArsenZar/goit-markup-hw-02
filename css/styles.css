@@ -36,7 +36,7 @@ p{
 .logo-header{
     color: #2e2f42;
 }
-.active{
+.navigation-link{
     font-weight: 500;
 }
 .logo-footer{
@@ -65,18 +65,15 @@ p{
 .contact{
     font-style: normal;
 }
-.contact-list-mail, 
-.contact-list-phone{
+.contact-list-link{
     color:#434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .navigation-list a:hover,
 .navigation-list a:focus,
-.contact-list-mail:hover,
-.contact-list-mail:focus,
-.contact-list-phone:hover,
-.contact-list-phone:focus{
+.contact-list-link:hover,
+.contact-list-link:focus{
     color: #404BBF;
 }
 .solutions-button{
@@ -98,13 +95,16 @@ p{
     background-color: #2E2F42;
 }
 .advantages-title{
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: white;
 }
 .advantages-item-describe{
     columns: #434455;
     letter-spacing: 0.02em;
+}
+.advantages-item-title{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .team-item-title{
     font-weight: 500;
@@ -118,6 +118,7 @@ p{
     background-color: #F4F4FD;
 }
 .portfolio-title{
+    color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -149,6 +150,7 @@ p{
 .portfolio-item-title{
     font-weight: 500;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio-item-describe{
     letter-spacing: 0.02em;
