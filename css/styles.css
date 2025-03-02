@@ -1,6 +1,7 @@
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 h1{
     color: white;
@@ -23,15 +24,26 @@ p{
     line-height: 1.5;
 }
 .logo{
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
-.logo span{
-    color: #4D5AE5;
+.logo-header{
+    color: #2e2f42;
+}
+.active{
+    font-weight: 500;
+}
+.logo-footer{
+    color: #ffffff;
 }
 .solutions-title{
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .contact-list a{
@@ -45,11 +57,19 @@ p{
     list-style-type: none;
 }
 .navigation-list a{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
 }
+.contact{
+    font-style: normal;
+}
 .contact-list a{
-    color: black;
+    color:#434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
 .navigation-list a:hover,
 .navigation-list a:focus,
@@ -62,6 +82,15 @@ p{
     line-height: 1.5;
     color: white;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.solutions-button:hover,
+.solutions-button:focus{
+    background-color: #404BBF;
+
 }
 .solutions{
     background-color: #2E2F42;
@@ -72,8 +101,55 @@ p{
 .advantages-item-describe{
     columns: #434455;
 }
+.team-item-title{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.team-item-describe{
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .team{
     background-color: #F4F4FD;
+}
+.portfolio-title{
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-item{
+    background-color: #ffffff;
+}
+.team-item-title{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.team-item-describe{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.portfolio-title{
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-item-title{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.portfolio-item-describe{
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.bottom-footer{
+    background-color: #2E2F42;
+}
+.footer-describe{
+    color: #F4F4FD;
+}
+.logo-footer{
+    color: #F4F4FD;
 }
 
 /*
