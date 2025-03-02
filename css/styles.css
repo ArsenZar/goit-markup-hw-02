@@ -1,0 +1,85 @@
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #2E2F42;
+}
+h1{
+    color: white;
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+}
+h2{
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 500;
+}
+h3{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2E2F42;
+    font-weight: 700;
+}
+.logo span{
+    color: #4D5AE5;
+}
+.solutions-title{
+    text-align: center;
+}
+.contact-list a{
+    text-decoration: none;
+}
+.contact-list li,
+.advantages-list li,
+.navigation-list li,
+.team-list li,
+.portfolio-list li{
+    list-style-type: none;
+}
+.navigation-list a{
+    color: #2E2F42;
+    text-decoration: none;
+}
+.contact-list a{
+    color: black;
+}
+.navigation-list a:hover,
+.navigation-list a:focus,
+.contact-list a:hover,
+.contact-list a:focus{
+    color: #404BBF;
+}
+.solutions-button{
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-color: #4D5AE5;
+}
+.solutions{
+    background-color: #2E2F42;
+}
+.advantages-title{
+    color: white;
+}
+.advantages-item-describe{
+    columns: #434455;
+}
+.team{
+    background-color: #F4F4FD;
+}
+
+/*
+CLOUD #F4F4FD
+#404BBF 
+NAVY BLUE #2E2F42
+SLATE #434455
+IRIS #4D5AE5
+*/
